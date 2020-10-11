@@ -11,9 +11,12 @@ export default {
               TabOneScreen: 'one',
             },
           },
-          TabTwo: {
+          logged: {
             screens: {
-              TabTwoScreen: 'two',
+              project: {
+                path: 'ps'
+              },
+              projects: 'ps',
             },
           },
         },
