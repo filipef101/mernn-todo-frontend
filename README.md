@@ -13,6 +13,10 @@ Create / Edit / Finish Delete | **Project Tasks**
 **Dark mode** based on device settings
 
 
+![](light.gif)
+
+![](dark.gif)
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
@@ -49,7 +53,7 @@ https://docs.expo.io/workflow/web/
 ## Creating a Build
 
 - Optimize the assets for speed - `npx expo-optimize` (formerly `expo optimize`)
-- Bundle the project for production - `expo build:web`
+- Bundle the project for production - `npx expo build:web`
   - Creates a production ready static bundle in the `web-build/` directory. Don't edit this folder directly.
   - Uses Webpack to [optimize the project.][webpack-optimize]
   - If you make any changes to your project, you'll need to re-build for production.
